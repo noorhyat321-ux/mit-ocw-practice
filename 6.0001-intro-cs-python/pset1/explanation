@@ -1,0 +1,30 @@
+# Problem Set 1 – Summary
+
+## Part A – Saving Fixed Portion
+
+Calculate how many months it takes to save enough for a down payment.
+
+* A fixed percentage of salary is saved each month
+* Savings increase monthly with a return rate
+* Goal: reach a target amount (portion of house cost)
+
+---
+
+## Part B – Saving with Salary Raises
+
+Extend Part A by including salary growth over time.
+
+* Salary increases every 6 months
+* Savings continue monthly with updated salary
+* Goal: determine months needed with raises included
+
+---
+
+## Part C – Finding Best Savings Rate
+
+Find the optimal saving rate to reach the goal within a fixed time.
+
+* Time is fixed (e.g., 36 months)
+* Need to determine what percentage of salary to save
+* Use an efficient method (like search) to find the best rate
+* If impossible, report that it cannot be done
