@@ -1,0 +1,12 @@
+# Problem Set 3 – Summary
+
+## Word Scoring
+* Points calculated based on length and letter values.
+* Includes a "Wildcard" (`*`) that can represent any vowel but scores 0.
+
+## Hand Management
+* `update_hand`: Deducts used letters.
+* `is_valid_word`: Checks if a word exists in the dictionary and fits the current hand.
+
+## Game Flow
+* Play multiple hands, choose to replay a hand once, and substitute one letter.
