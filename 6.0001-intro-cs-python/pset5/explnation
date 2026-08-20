@@ -1,0 +1,10 @@
+# Problem Set 5 – Summary
+
+## Trigger Classes
+* `WordTrigger`: Base class to check if a word is in text, ignoring punctuation/case.
+* `TitleTrigger` & `DescriptionTrigger`: Check for words in specific parts of a story.
+* `And`, `Or`, `Not` Triggers: Logical combinations of other triggers.
+
+## Filtering Logic
+* `filter_stories`: Takes a list of stories and a list of triggers; returns only stories that fire at least one trigger.
+* Parser: Reads a `.txt` file to dynamically build trigger objects.
