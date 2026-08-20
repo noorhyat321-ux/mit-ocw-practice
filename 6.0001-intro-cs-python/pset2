@@ -1,0 +1,14 @@
+# Problem Set 2 – Summary
+
+## Part 1 – Helper Functions
+* `is_word_guessed`: Checks if all letters of the secret word are in guessed letters.
+* `get_guessed_word`: Shows the current state of the word (e.g., `_ p p _ e`).
+* `get_available_letters`: Returns all letters the user hasn't guessed yet.
+
+## Part 2 – Hangman Game Loop
+* 6 guesses, 3 warnings.
+* Deducts 2 guesses for incorrect vowels, 1 for consonants.
+* Ends when the word is guessed or guesses reach 0.
+
+## Part 3 – Hangman with Hints
+* If user enters '*', the program shows all potential matches in the dictionary that fit the current revealed letters.
