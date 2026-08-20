@@ -1,0 +1,11 @@
+# Problem Set 4 – Summary
+
+## Part A – Permutations (Recursion)
+* A recursive function to find all possible reorderings of a string.
+* Base case: Single character string.
+* Recursive step: Insert first character into all positions of the sub-problem permutations.
+
+## Part B – Caesar Cipher (OOP)
+* `Message` class: Basic string storage.
+* `PlaintextMessage`: Handles encryption using a shift.
+* `CiphertextMessage`: Decrypts by trying all 26 shifts and checking against a dictionary.
